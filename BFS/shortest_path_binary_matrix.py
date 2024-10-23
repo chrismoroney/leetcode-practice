@@ -1,3 +1,16 @@
+#Shortest Path in a Binary Matrix
+# You are given an n x n binary matrix grid. 
+# The matrix contains only 0s (empty cells) and 1s (blocked cells). 
+# You need to find the shortest path from the top-left corner (0,0) to the bottom-right corner (n-1,n-1). 
+# You can only move in 8 possible directions (up, down, left, right, and diagonals).
+
+# If there is no path, return -1.
+
+# Constraints:
+# You cannot move through a blocked cell (1).
+# You cannot move outside the grid boundaries.
+# The start and destination cells must be empty (0).
+
 from collections import deque
 
 def shortestPathBinaryMatrix(grid: list[list[int]]) -> int:
