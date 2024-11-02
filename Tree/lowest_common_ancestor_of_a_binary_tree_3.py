@@ -1,3 +1,5 @@
+# Lowest Common Ancestor of a Binary Tree 3
+
 # Given two nodes of a binary tree p and q, return their lowest common ancestor (LCA).
 
 # Each node will have a reference to its parent node. The definition for Node is below:
