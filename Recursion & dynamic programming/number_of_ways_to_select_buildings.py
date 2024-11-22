@@ -34,7 +34,9 @@ class Solution(object):
 if __name__ == "__main__":
     s = '001101'
     s1 = '001010001001110101110100'
+    s2 = '101100011101'
 
     solution = Solution()
     print(solution.number_of_ways(s))
     print(solution.number_of_ways(s1))
+    print(solution.number_of_ways(s2))
