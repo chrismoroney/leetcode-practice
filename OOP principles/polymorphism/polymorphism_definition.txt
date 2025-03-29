@@ -1,0 +1,15 @@
+Polymorphism
+
+Polymorphism allows objects of different classes to be treated as objects of a common superclass, with methods being called appropriately for each class.
+
+What it is:
+Polymorphism allows objects of different classes to be treated through a common interface. 
+The specific implementation is determined at runtime based on the actual object type. 
+It means "many forms" - the same operation can behave differently depending on the object it's acting upon.
+
+Why it's useful:
+Flexibility: Allows writing code that can work with objects of multiple types.
+Extensibility: New classes can be added to a system without changing existing code.
+Simplified Code: Reduces conditional logic (fewer if/else statements checking object types).
+Decoupling: Code depends on abstractions rather than concrete implementations.
+Modular Design: Promotes cleaner separation of concerns.

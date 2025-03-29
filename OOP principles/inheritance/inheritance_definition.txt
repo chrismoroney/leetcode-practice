@@ -1,0 +1,14 @@
+Inheritance
+
+Inheritance allows a class to inherit attributes and methods from another class.
+
+What it is:
+Inheritance establishes an "is-a" relationship between classes, 
+allowing a child class (subclass) to inherit attributes and behaviors from a parent class (superclass). 
+The child class can then extend or override the inherited functionality.
+
+Why it's useful:
+Code Reusability: Eliminates the need to rewrite the same code in multiple classes. Common functionality can be defined once in a parent class.
+Hierarchical Organization: Creates clear, logical relationships between classes, modeling real-world hierarchies.
+Extensibility: Makes it easier to extend existing code without modifying it, following the open-closed principle.
+Maintenance: Changes to the parent class automatically apply to all child classes (unless overridden).

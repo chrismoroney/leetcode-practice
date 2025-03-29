@@ -1,0 +1,13 @@
+Encapsulation
+
+Encapsulation is hiding the internal state and requiring all interaction to be performed through an object's methods.
+
+What it is:
+Encapsulation bundles data (attributes) and the methods that operate on that data into a single unit (class), while restricting direct access to some of the object's components. It follows the principle of information hiding.
+Why it's useful:
+
+Data Protection: Prevents external code from accidentally or intentionally modifying an object's internal state in invalid ways.
+Controlled Access: Provides controlled interfaces (methods) to interact with an object's data.
+Reduced Complexity: Hides implementation details, making the interface simpler to use.
+Maintainability: Implementation details can change without affecting code that uses the class.
+Validation: Allows for data validation when setting values through methods.

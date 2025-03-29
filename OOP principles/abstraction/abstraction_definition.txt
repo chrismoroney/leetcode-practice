@@ -1,0 +1,14 @@
+Abstraction:
+
+Abstraction means hiding complex implementation details and showing only the necessary features of an object.
+
+What it is:
+Abstraction focuses on essential qualities of an object while hiding unnecessary details. 
+It creates a simplified view of an object through well-defined interfaces, isolating the impact of changes.
+
+Why it's useful:
+Simplifies Complexity: Presents only what's needed to interact with an object.
+Implementation Independence: Code that uses the abstraction depends only on the interface, not the implementation.
+Focus: Developers can focus on what an object does rather than how it does it.
+Modularity: Clearly defined boundaries between components make systems easier to understand and modify.
+Future-proofing: Implementations can change without affecting code that uses the abstraction.
